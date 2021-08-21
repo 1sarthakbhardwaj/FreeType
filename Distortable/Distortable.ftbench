@@ -1,0 +1,35 @@
+
+ftbench results for font `/builds/thesarthakbhardwaj/regressiontest/fonts/Distortable.ttf'
+------------------------------------------------------------------------------------------
+
+family: Distortable
+ style: Normal
+
+number of seconds for each test: 2.000000
+
+glyph indices: from 0 to 5
+face size: 10ppem
+font preloading into memory: no
+
+load flags: 0x0
+render mode: 0
+
+CFF hinting engine set to `adobe'
+TrueType interpreter set to version 40
+maximum cache size: 1024KiByte
+
+executing tests:
+  Load                           0.769 us/op    2157720 done
+  Load_Advances (Normal)         0.711 us/op    2326530 done
+  Load_Advances (Fast)           0.114 us/op    7052658 done
+  Load_Advances (Unscaled)       0.133 us/op    5930862 done
+  Render                         1.159 us/op     873756 done
+  Get_Glyph                      0.597 us/op    1155258 done
+  Get_Char_Index                 0.175 us/op    4251858 done
+  Iterate CMap                   0.542 us/op    1425344 done
+  New_Face                      15.524 us/op     120665 done
+  Embolden                       1.873 us/op     648450 done
+  Stroke                        21.872 us/op      84462 done
+  Get_BBox                       0.672 us/op     999252 done
+  Get_CBox                       0.475 us/op    1103382 done
+  New_Face & load glyph(s)  no error-free calls

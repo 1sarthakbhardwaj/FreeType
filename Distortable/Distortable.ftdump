@@ -1,0 +1,40 @@
+There is 1 face in this file.
+
+----- Face number: 0 -----
+
+font name entries
+   family:              Distortable
+   style:               Normal
+   postscript:          Distortable-Normal
+   created:             2015-03-23
+   modified:            2015-03-23
+   revision:            1.00
+   glyph count:         6
+      simple:           4
+      composite:        0
+      empty:            2
+
+font type entries
+   FreeType driver:     truetype
+   sfnt wrapped:        yes
+   type:                scalable, multiple masters
+   direction:           horizontal
+   fixed width:         no
+   glyph names:         yes
+   EM size:             2048
+   global BBox:         (51,0):(1022,1638)
+   ascender:            1638
+   descender:           -410
+   height:              2425
+   max_advance_width:   1210
+   max_advance_height:  2425
+   underline_position:  -306
+   underline_thickness: 102
+
+charmaps (3)
+   0: unic, platform 0, encoding  3, format  4, language 0 
+   1: armn, platform 1, encoding  0, format  0, language 0 
+ * 2: unic, platform 3, encoding  1, format  4, language 0 
+
+GX axes
+   "Weight": [0.5;2], default 1

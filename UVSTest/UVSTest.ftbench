@@ -1,0 +1,35 @@
+
+ftbench results for font `/builds/thesarthakbhardwaj/regressiontest/fonts/UVSTest.ttf'
+--------------------------------------------------------------------------------------
+
+family: UVSTest
+ style: Regular
+
+number of seconds for each test: 2.000000
+
+glyph indices: from 0 to 4
+face size: 10ppem
+font preloading into memory: no
+
+load flags: 0x0
+render mode: 0
+
+CFF hinting engine set to `adobe'
+TrueType interpreter set to version 40
+maximum cache size: 1024KiByte
+
+executing tests:
+  Load                           3.081 us/op     609325 done
+  Load_Advances (Normal)         2.988 us/op     627355 done
+  Load_Advances (Fast)           0.107 us/op    7283800 done
+  Load_Advances (Unscaled)       0.103 us/op    7424605 done
+  Render                         1.566 us/op     431130 done
+  Get_Glyph                      0.618 us/op     530755 done
+  Get_Char_Index                 0.474 us/op    1468222 done
+  Iterate CMap                   0.509 us/op    1463219 done
+  New_Face                      14.450 us/op     128689 done
+  Embolden                       2.562 us/op     334670 done
+  Stroke                        40.845 us/op      41780 done
+  Get_BBox                       0.759 us/op     463540 done
+  Get_CBox                       0.487 us/op     508700 done
+  New_Face & load glyph(s)      37.897 us/op      52445 done

@@ -1,0 +1,35 @@
+
+ftbench results for font `/builds/thesarthakbhardwaj/regressiontest/fonts/CMap2.ttf'
+------------------------------------------------------------------------------------
+
+family: CMap2
+ style: Regular
+
+number of seconds for each test: 2.000000
+
+glyph indices: from 0 to 4
+face size: 10ppem
+font preloading into memory: no
+
+load flags: 0x0
+render mode: 0
+
+CFF hinting engine set to `adobe'
+TrueType interpreter set to version 40
+maximum cache size: 1024KiByte
+
+executing tests:
+  Load                           2.941 us/op     638140 done
+  Load_Advances (Normal)         2.641 us/op     707205 done
+  Load_Advances (Fast)           0.115 us/op    6770910 done
+  Load_Advances (Unscaled)       0.108 us/op    7116875 done
+  Render                         1.464 us/op     436680 done
+  Get_Glyph                      0.605 us/op     560330 done
+  Get_Char_Index                 0.247 us/op    2881084 done
+  Iterate CMap                   0.589 us/op    1305455 done
+  New_Face                      16.856 us/op     111000 done
+  Embolden                       2.727 us/op     327675 done
+  Stroke                        36.766 us/op      46005 done
+  Get_BBox                       0.808 us/op     457245 done
+  Get_CBox                       0.547 us/op     468595 done
+  New_Face & load glyph(s)      40.541 us/op      49020 done
